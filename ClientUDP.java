@@ -46,7 +46,7 @@ public class UDPClient
     //elaborando dei dati ricevuti
     int numCaratteri = receivePacket.getLength();
     ricevuto=ricevuto.substring(0,numCaratteri); //elimina i caratteri in eccesso
-    System.out.println("dal Server:" + ricevuto);
+    System.out.println("dal Server:" + ricevuto); 
     
     //termine elaborazione
     clientSocket.close();
